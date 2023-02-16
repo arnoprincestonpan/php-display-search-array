@@ -70,9 +70,9 @@ $msg .= "</ul>"
     <div>
         <h1>Display and Search Arrays with PHP</h1>
         <form action="<?= $_SERVER["PHP_SELF"] ?>" method="get">
-            <label>Character Name: </label>
+            <label for="text-search">Character Name: </label>
             <input id="text-search" value="<?= $searchText ?>" name="text-search" type="text" placeholder="Enter a Character."  />
-            <label>Cartoon Series: </label>
+            <label for="series">Cartoon Series: </label>
             <select id="series" name="series">
                 <option value="" selected>--- Choose a Series ---</option>
                 <option value="simpsons">Simpsons</option>
